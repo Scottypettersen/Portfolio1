@@ -1,0 +1,101 @@
+/* style.css */
+:root {
+    --primary: #00b4d8; /* Teal */
+    --secondary: #f9844a; /* Orange */
+    --accent: #5865f2; /* Purple */
+    --background: #f2f2f2; /* Off-White */
+    --dark-overlay: rgba(0, 0, 0, 0.7); /* Increased overlay opacity for better contrast */
+    --grunge-texture: url("grunge-texture.jpg"); /* Optional grunge texture for background */
+}
+
+body {
+    background-image: url(portfolio.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: var(--body-font);
+    color: var(--background); 
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styles */
+.container {
+    max-width: 960px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Typography */
+h1, h2, h3 {
+    color: var(--background);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+    font-family: 'Bebas Neue', sans-serif; 
+}
+
+h1 {
+    font-size: 4em; 
+    margin-bottom: 20px;
+}
+
+h1 a { 
+    color: var(--background); 
+    text-decoration: none;
+}
+
+p, li {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-family: 'Lato', sans-serif; 
+}
+
+/* Navigation */
+nav {
+    background-color: var(--dark-overlay); 
+    padding: 10px 0; 
+    margin-bottom: 20px; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: var(--background); 
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease; 
+    padding: 8px 12px; 
+    border-radius: 5px; 
+}
+
+nav a:hover {
+    color: var(--secondary);
+    background-color: var(--accent); 
+}
+
+/* Hero Section */
+.hero-content {
+    padding: 120px 0; 
+    text-align: center; 
+}
+
+.hero-content p {
+    font-size: 1.5em; 
+    margin-bottom: 30px;
+}
+
+/* Portfolio Page Styles */
+.portfolio-page {
+    background-image: url("portfolio.jpg"); 
+    background

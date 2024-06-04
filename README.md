@@ -1,1 +1,1 @@
-# Portfolio1
+Here is my first attempt at a portfolio website. I made it with a quarters worth of HTML and CSS training and the magical power of AI. Here is the chat I had with gemini to get to v1: https://g.co/gemini/share/394ff55d9b2f
